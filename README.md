@@ -2,10 +2,11 @@
 
 This repository contains the full project report and Arduino source code for an autonomous robotic system developed for the **UCL Engineering Foundation Year**. The project demonstrates the integration of sensing, actuation, and decision-making to create a system that can detect, retrieve, and sort objects based on their colour.
 
-![Final Product](https://imgur.com/iW4iHb9)
+![Final Product](images/Braccio%20Arm.png)
 
 ## Table of Contents
 - [Overview](#overview)
+- [Demo Video](#demo-video)
 - [How It Works](#how-it-works)
 - [Hardware](#hardware)
 - [Software & Libraries](#software--libraries)
@@ -19,6 +20,12 @@ The goal of this project was to augment a TinkerKit Braccio robotic arm to perfo
 
 This was achieved by integrating ultrasonic and colour sensors with the arm, and developing control software that uses an inverse kinematics library for precise path planning and movement.
 
+## Demo Video
+
+A short demonstration of the final system in action.
+
+[Watch the demo on YouTube](https://youtu.be/sZdvIQDG34I?si=M1WNd-YSmVnnbeDj)
+
 ## How It Works
 
 The operational logic follows a simple, repeatable loop:
@@ -30,7 +37,7 @@ The operational logic follows a simple, repeatable loop:
 5.  **Sort:** Based on the colour detected, the arm moves to the predefined coordinates of the correct bin and drops the object.
 6.  **Reset:** The arm returns to its home position and the loop begins again.
 
-![Program Flow Chart](https://imgur.com/wgpSQjs)
+![Program Flow Chart](images/Project%205%20Final%20Flow%20Chart.jpg)
 
 ## Hardware
 
