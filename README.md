@@ -2,6 +2,8 @@
 
 This repository contains the full project report and Arduino source code for an autonomous robotic system developed for the **UCL Engineering Foundation Year**. The project demonstrates the integration of sensing, actuation, and decision-making to create a system that can detect, retrieve, and sort objects based on their colour.
 
+![Final Product](https://imgur.com/iW4iHb9)
+
 ## Table of Contents
 - [Overview](#overview)
 - [How It Works](#how-it-works)
@@ -28,7 +30,7 @@ The operational logic follows a simple, repeatable loop:
 5.  **Sort:** Based on the colour detected, the arm moves to the predefined coordinates of the correct bin and drops the object.
 6.  **Reset:** The arm returns to its home position and the loop begins again.
 
-![Program Flow Chart](https://i.imgur.com/gKj3tQd.png)
+![Program Flow Chart](https://imgur.com/wgpSQjs)
 
 ## Hardware
 
